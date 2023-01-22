@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+
+    /* Form */
+    .form-input {
+        @apply rounded border w-full py-2 px-3 text-red-600 focus:outline-none focus:border-red-600;
+    }
+
+    /* Btn */
+    .btn-primary {
+        @apply bg-red-600 text-white font-bold py-2 px-4 rounded cursor-pointer;
+    }
+
+}
